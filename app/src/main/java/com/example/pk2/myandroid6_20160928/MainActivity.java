@@ -80,7 +80,7 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onStop() {
-        super.onStop(); 
+        super.onStop();
         Toast.makeText(this,"onStop11", Toast.LENGTH_LONG).show();
     }
 
@@ -95,7 +95,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onRestart() {
         super.onRestart();
-        Toast.makeText(this,"onRestart11",Toast.LENGTH_LONG).show();
+        Toast.makeText(this,"onRestart21",Toast.LENGTH_LONG).show();
     }
 
     @Override
